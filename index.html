@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEUNZ – Website im Aufbau</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #1e3c72, #2a5298); /* Schönes Blau */
+      color: white;
+      font-family: "Poppins", Arial, sans-serif;
+      text-align: center;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 4em;
+      margin-bottom: 0.2em;
+      letter-spacing: 3px;
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+
+    h2 {
+      font-size: 2.2em;
+      margin-bottom: 0.4em;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 550px;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #00c6ff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .loader {
+      border: 6px solid #fff;
+      border-top: 6px solid rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      margin-top: 30px;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <h1>HEUNZ</h1>
+  <h2>🚧 Website im Aufbau 🚧</h2>
+  <p>Danke, dass Sie unsere Website besucht haben.<br>
+  Wir werden bald wieder online sein!</p>
+  <p>Unsere Website befindet sich derzeit <strong>unter Konstruktion</strong>.</p>
+  <p>Bitte schreiben Sie uns bei Fragen an:<br>
+  <a href="mailto:info@heunz.com">info@heunz.com</a></p>
+  <div class="loader"></div>
+</body>
+</html>
